@@ -6,10 +6,10 @@ public class triangle {
     int b;
     int c;
 
-    void area (){
-        float p = (a+b+c)/2;
-double s = Math.sqrt(p*(p-a)*(p-b)*(p-c));
-        System.out.println(p);
+    void area() {
+        double p = (a + b + c) / 2d;
+        double s = Math.sqrt(p * (p - a) * (p - b) * (p - c));
+
         System.out.println(String.format("%.2f",s));
     }
 }
